@@ -11,6 +11,7 @@ lambdaとは、無名関数のことです。
 --ここから--
 
 def is_odd(num):
+
     return num % 2 ==1
 
 --ここまで--
@@ -33,6 +34,7 @@ print is_odd(8)
 --ここから--
 
 judge = (lambda num : num % 2 == 1 )(8)
+
 print judge
 
 --ここまで--
